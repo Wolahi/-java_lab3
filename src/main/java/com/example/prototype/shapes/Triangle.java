@@ -4,7 +4,7 @@ import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.paint.Color;
 
-public class Triangle extends Shape implements Cloneable {
+public class Triangle extends Shape {
     public Triangle(Color color) {
         super(color);
     }

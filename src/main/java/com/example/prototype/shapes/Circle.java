@@ -4,7 +4,7 @@ import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.paint.Color;
 
-public class Circle extends Shape implements Cloneable {
+public class Circle extends Shape {
     public Circle(Color color) {
         super(color);
     }

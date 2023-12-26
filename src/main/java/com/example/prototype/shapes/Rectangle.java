@@ -4,7 +4,7 @@ import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.paint.Color;
 
-public class Rectangle extends Shape implements Cloneable{
+public class Rectangle extends Shape {
     public Rectangle(Color color) {
         super(color);
     }

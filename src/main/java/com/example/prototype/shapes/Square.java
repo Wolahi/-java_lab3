@@ -4,7 +4,7 @@ import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.paint.Color;
 
-public class Square extends Shape implements Cloneable{
+public class Square extends Shape {
     public Square(Color color) {
         super(color);
     }

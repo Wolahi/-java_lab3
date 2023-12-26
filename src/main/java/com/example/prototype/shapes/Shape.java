@@ -4,7 +4,7 @@ import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.paint.Color;
 
-public abstract class Shape {
+public abstract class Shape implements Cloneable {
     protected Color color;
     protected double x, y;
     public Shape(Color color) {
